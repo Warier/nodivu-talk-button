@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "library": "talk-button.clap",
+  "plugin_id": "org.nodivu.talk-button",
+  "title": "Botão de fala",
+  "description": "Sempre aberto, segurar para falar ou alternar o microfone.",
+  "accent": "#e7b265",
+  "layout": "stack",
+  "controls": [
+    {
+      "parameter": 0,
+      "label": "Modo",
+      "widget": "select",
+      "unit": "",
+      "group": "Fala",
+      "quick": true,
+      "options": [
+        {
+          "value": 0,
+          "label": "Sempre aberto"
+        },
+        {
+          "value": 1,
+          "label": "Segurar para falar"
+        },
+        {
+          "value": 2,
+          "label": "Alternar"
+        }
+      ]
+    },
+    {
+      "parameter": 1,
+      "label": "Aberto (modo Alternar)",
+      "widget": "toggle",
+      "unit": "",
+      "group": "Fala",
+      "quick": true
+    },
+    {
+      "parameter": 2,
+      "label": "Segurar para falar",
+      "widget": "momentary",
+      "unit": "",
+      "group": "Fala",
+      "quick": true,
+      "help": "Use no modo Segurar. Mouse, Espaço ou Enter; ao perder foco o microfone fecha. Não é um atalho global."
+    },
+    {
+      "parameter": 3,
+      "label": "Transição",
+      "widget": "slider",
+      "unit": "ms",
+      "group": "Som",
+      "advanced": true
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "plugin_id": "org.nodivu.talk-button",
+  "version": "1.0.0",
+  "author": "Nodivu contributors",
+  "host_api": 2,
+  "platform": "win32-x64",
+  "repository": "https://github.com/Warier/nodivu-talk-button",
+  "resource_tier": "light",
+  "license": "MIT"
+}
